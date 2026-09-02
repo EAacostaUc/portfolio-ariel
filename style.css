@@ -12,12 +12,23 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
     background: #0f172a;
     color: #e2e8f0;
     line-height: 1.6;
+} */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0a0a0a;
+    color: #f5f5f5;
+    line-height: 1.6;
 }
+
+
+
 
 a {
     text-decoration: none;
@@ -33,7 +44,7 @@ ul {
    VARIABLES
 ========================================================= */
 
-:root {
+/* :root {
     --background: #0f172a;
     --background-light: #111c33;
     --card: #17233a;
@@ -48,7 +59,35 @@ ul {
     --border: #26364f;
 
     --max-width: 1150px;
+} */
+
+
+
+
+
+
+
+:root {
+    --background: #0a0a0a;
+    --background-light: #0d0d0d;
+
+    --card: #0f172a;
+    --card-hover: #172554;
+
+    --primary: #38bdf8;
+    --primary-dark: #0284c7;
+
+    --text: #f5f5f5;
+    --text-light: #a3a3a3;
+
+    --border: #26364f;
+
+    --max-width: 1150px;
 }
+
+
+
+
 
 
 /* =========================================================
@@ -62,7 +101,12 @@ ul {
     left: 0;
     z-index: 1000;
 
-    background: rgba(15, 23, 42, 0.9);
+    /*background: rgba(15, 23, 42, 0.9);*/
+
+
+    background: rgba(10, 10, 10, 0.9);
+
+
     backdrop-filter: blur(12px);
 
     border-bottom: 1px solid var(--border);
